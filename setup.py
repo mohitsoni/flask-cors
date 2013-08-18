@@ -5,13 +5,19 @@ Flask-CORS
 ----------
 
 A flask extension to enable CORS support in flask applications. 
+
+Links
+`````
+
+* `source <https://github.com/mohitsoni/flask-cors>`_
+`
 """
 
 from setuptools import setup
 
 setup(
     name='Flask-CORS',
-    version='1.0',
+    version='0.1',
     url='http://github.com/mohitsoni/flask-cors',
     license='MIT',
     author='Mohit Soni',
