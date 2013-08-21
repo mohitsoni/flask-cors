@@ -3,8 +3,10 @@
 import unittest
 import sys
 import os
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from flask_cors import CORSMiddleware
+
+from flask.ext.cors import CORSMiddleware
 
 class CORSMiddlewareTest(unittest.TestCase):
 	def test_is_valid_origin(self):
